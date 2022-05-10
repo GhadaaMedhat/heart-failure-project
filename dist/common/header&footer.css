@@ -7,12 +7,16 @@ footer.l-footer {
     /* border-bottom: 1px solid #000 */
 }
 
+
 .navbar .logo {
     width: 50%;
     float: left;
 }
 .navbar img{
     width: 80px;
+}
+.navbar {
+    background-image:url(../images/heart_failure.jpg);
 }
 
 .navbar input , .navbar label {
@@ -61,7 +65,7 @@ footer.l-footer {
 
 .navbar .ul-list .list-item a {
     display: block;
-    color: #222;
+    color: rgb(255, 255, 255);
     padding: 10px 15px;
     font-weight: bold;
 }
@@ -99,20 +103,30 @@ footer.l-footer {
 
 footer.l-footer .container{
     width: 80%;
+    background: url('../../images/heart_failure.jpg') no-repeat ;
+    background-size: cover;
 }
 footer.l-footer ul{
     list-style: none;
 }
 footer.l-footer img{
     width: 80px;
+    background: url('../../images/heart_failure.jpg') no-repeat ;
+    background-size: cover;
 }
 footer.l-footer .list{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+
+    background: url('../../images/heart_failure.jpg') no-repeat ;
+    background-size: cover;
+
 }
+
 footer.l-footer .list li a{
     display: block;
+    
     padding-block: 1rem;
 }
