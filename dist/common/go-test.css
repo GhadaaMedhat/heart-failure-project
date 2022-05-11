@@ -5,10 +5,8 @@ form {
     flex-wrap: wrap;
 }
 main{
-    background:url(../../images/bg.jpg) no-repeat;
-    background-size: cover;
-    /* background-color: rgb(36, 34, 34); */
-}
+    background:linear-gradient(rgba(151, 151, 151, 0.6), rgba(151, 151, 151, 0.6)),url(../../images/bg.jpg) no-repeat;
+    background-size: cover,cover;}
 
 
 form .form-item{

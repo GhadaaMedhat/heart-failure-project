@@ -13,7 +13,7 @@ footer.l-footer {
     float: left;
 }
 .navbar img{
-    width: 80px;
+    width: 140px;
 }
 .navbar {
     background-image:url(../images/heart_failure.jpg);
@@ -65,7 +65,7 @@ footer.l-footer {
 
 .navbar .ul-list .list-item a {
     display: block;
-    color: rgb(255, 255, 255);
+    color: brown;
     padding: 10px 15px;
     font-weight: bold;
 }
